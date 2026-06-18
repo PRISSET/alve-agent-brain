@@ -1,0 +1,1 @@
+export function run(input) { const lamports = typeof input === 'number' && Number.isFinite(input) ? input : (typeof input === 'object' && input !== null ? input.lamports : input); if (typeof lamports !== 'number' || !Number.isFinite(lamports) || lamports < 0) { return 0; } return lamports / 1000000000; }
