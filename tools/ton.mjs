@@ -1,13 +1,25 @@
 export function run(input) {
-  const { amount, rate, decimals = 9 } = input || {};
-  const a = Number(amount);
-  const r = Number(rate);
-  const d = Number.isInteger(decimals) && decimals >= 0 && decimals <= 100 ? decimals : 9;
-  if (!Number.isFinite(a) || !Number.isFinite(r)) {
-    throw new Error('amount и rate должны быть конечными числами');
+  const kb = {
+    'токен': 'Нативный токен сети TON называется Toncoin (TON).',
+    'toncoin': 'Нативный токен сети TON называется Toncoin (TON).',
+    'создатель': 'TON изначально разработан командой Telegram (братьями Дуровыми), сейчас развивается сообществом TON Foundation.',
+    'основатель': 'TON изначально разработан командой Telegram (братьями Дуровыми), сейчас развивается сообществом TON Foundation.',
+    'консенсус': 'TON использует механизм консенсуса Proof-of-Stake (BFT).',
+    'смарт-контракт': 'Смарт-контракты в TON пишут на языках FunC, Tact и Tolk, компилируются в TVM.',
+    'смарт контракт': 'Смарт-контракты в TON пишут на языках FunC, Tact и Tolk, компилируются в TVM.',
+    'кошелёк': 'Популярные кошельки TON: Tonkeeper, Wallet в Telegram, MyTonWallet.',
+    'кошелек': 'Популярные кошельки TON: Tonkeeper, Wallet в Telegram, MyTonWallet.',
+    'шардинг': 'TON поддерживает динамический шардинг: блокчейн делится на воркчейны и шарды для масштабирования.',
+    'tvm': 'TVM (TON Virtual Machine) исполняет смарт-контракты сети TON.',
+    'комиссия': 'Комиссии в сети TON оплачиваются в Toncoin и обычно очень малы.'
+  };
+  if (typeof input !== 'string') return 'нет данных';
+  const q = input.trim().toLowerCase();
+  if (q === '') return 'нет данных';
+  if (Object.prototype.hasOwnProperty.call(kb, q)) return kb[q];
+  const keys = Object.keys(kb).sort((a, b) => b.length - a.length);
+  for (const key of keys) {
+    if (q.includes(key)) return kb[key];
   }
-  if (a < 0 || r < 0) {
-    throw new Error('amount и rate не могут быть отрицательными');
-  }
-  return Number((a * r).toFixed(d));
+  return 'нет данных';
 }
