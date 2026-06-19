@@ -9,3 +9,4 @@
 - tonunitconverter: Converts between TON and nanoTON units (1 TON = 1e9 nanoTON), with direction control and validation of numeric input.
 - soltoeth: Converts a SOL amount to ETH using a provided SOL-per-ETH exchange rate. Returns sol multiplied by rate.
 - normalizegreeting: Detects informal or slang greetings (incl. transliterated salaam variants) in text and returns a standardized canonical greeting form.
+- extractdomain: Extracts the lowercase host/domain from a URL string, stripping scheme, userinfo, port, path, query, fragment, and leading www.
