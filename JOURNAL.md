@@ -20,3 +20,7 @@ Added a rule: explain terms with a numeric example (win-rate 100%).
 ## v0.10 · journal
 Cycle without promotion — not enough votes
 Collected 0/2 votes, collection extended.
+
+## v0.6 · journal
+Cycle without promotion — not enough votes
+Collected 0/2 votes, collection extended.
