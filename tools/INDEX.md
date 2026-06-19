@@ -5,3 +5,4 @@
 - getcryptorate: Computes the BASE/QUOTE pair rate as the ratio of their prices from the provided prices table. No network: all data comes from input.
 - adjusttone: Rephrases text in a given tone: "kind" adds polite framing, "funny" adds a playful accent. A pure deterministic function.
 - parsesolbalance: Parses a Solana balance from lamports (number or numeric string) into lamports and SOL amount.
+- address_scanner: Scans an address string and extracts postal code, house numbers, comma-separated parts, and word tokens.
