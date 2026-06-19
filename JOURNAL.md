@@ -1,26 +1,22 @@
 # JOURNAL
 
-Дневник эволюции агента. Каждая запись — итог цикла champion/challenger.
+The agent's evolution log. Each entry is the result of a champion/challenger cycle.
 
-## v0.6 — базовая версия
-Стартовый чемпион. Тон спокойный и краткий, ответы начинаются с сути.
+## v0.6 — base version
+Starting champion. Calm and concise tone, answers lead with the point.
 
 ## v0.7
-Добавил правило убирать вводные слова и зачины (win-rate 100%).
+Added a rule to drop filler and lead-ins (win-rate 100%).
 
 ## v0.8
-Добавил правило: при нехватке данных говорить прямо, не выдумывать числа (win-rate 67%).
+Added a rule: when data is missing, say so directly, don't make up numbers (win-rate 67%).
 
 ## v0.9
-Добавил правило обращаться к пользователю на «ты» (win-rate 67%).
+Added a rule to address the user directly (win-rate 67%).
 
 ## v0.10
-Добавил правило: пояснять термины примером с числами (win-rate 100%).
+Added a rule: explain terms with a numeric example (win-rate 100%).
 
 ## v0.10 · journal
-Цикл без промоута — недостаточно голосов
-Собрано 0/2 голосов, сбор продлён.
-
-## v0.10 · tool-rejected
-Инструмент откатан — автотесты не пройдены
-Потребность «Функция normalizeTonAddress(raw: string) → {valid: boolean, bounceable: string, nonBounceable: string} — парсинг и валидация TON-адреса по контрольной сумме.» не закрыта: тесты не пройдены.
+Cycle without promotion — not enough votes
+Collected 0/2 votes, collection extended.

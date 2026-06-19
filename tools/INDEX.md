@@ -1,8 +1,7 @@
-# Инструменты агента
-- sol: Конвертирует лампорты в SOL делением на 1e9; для отрицательных и нечисловых значений возвращает 0.
-- ton: Считает эквивалент в TON: умножает количество токена на курс токен/TON и округляет до заданной точности (по умолчанию 9 знаков).
-- tool: Принимает целое число секунд (>=0) и возвращает строку формата чч:мм:сс с ведущими нулями; часы без ограничения 24.
-- getcryptorate: Вычисляет курс пары BASE/QUOTE как отношение их цен из переданной таблицы prices. Без сети: все данные берутся из input.
-- adjusttone: Переформулирует текст в заданном тоне: «добрый» добавляет вежливые обрамления, «смешной» добавляет шутливый акцент. Чистая детерминированная функция.
-- solana: Чистая функция: из данных о токенах строит {tokens:[{mint,balance,metadata,priceUSD}]}, считая баланс как rawAmount/10^decimals.
-- solana_rpc: Чистая функция: разбирает ответы Solana RPC (getBalance и getTokenAccountsByOwner) и возвращает баланс SOL и список SPL-токенов с количеством и decimals.
+# Agent tools
+- sol: Converts lamports to SOL by dividing by 1e9; returns 0 for negative and non-numeric values.
+- ton: Computes the TON equivalent: multiplies the token amount by the token/TON rate and rounds to the given precision (9 decimals by default).
+- tool: Takes an integer number of seconds (>=0) and returns a string in hh:mm:ss format with leading zeros; hours are not capped at 24.
+- getcryptorate: Computes the BASE/QUOTE pair rate as the ratio of their prices from the provided prices table. No network: all data comes from input.
+- adjusttone: Rephrases text in a given tone: "kind" adds polite framing, "funny" adds a playful accent. A pure deterministic function.
+- parsesolbalance: Parses a Solana balance from lamports (number or numeric string) into lamports and SOL amount.

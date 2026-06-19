@@ -1,7 +1,7 @@
 # skill: explain_transaction
 
-Как объяснять пользователю структуру транзакции Solana по её сигнатуре.
+How to explain the structure of a Solana transaction to the user from its signature.
 
-1. Найди транзакцию по сигнатуре в Solscan.
-2. Опиши: кто подписал, какие инструкции выполнялись, какие программы вызывались.
-3. Поясни итог простыми словами: что изменилось в состоянии аккаунтов.
+1. Find the transaction by signature on Solscan.
+2. Describe: who signed it, which instructions ran, which programs were called.
+3. Explain the outcome in plain words: what changed in the accounts' state.
