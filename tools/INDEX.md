@@ -7,3 +7,4 @@
 - parsesolbalance: Parses a Solana balance from lamports (number or numeric string) into lamports and SOL amount.
 - address_scanner: Scans an address string and extracts postal code, house numbers, comma-separated parts, and word tokens.
 - tonunitconverter: Converts between TON and nanoTON units (1 TON = 1e9 nanoTON), with direction control and validation of numeric input.
+- soltoeth: Converts a SOL amount to ETH using a provided SOL-per-ETH exchange rate. Returns sol multiplied by rate.
