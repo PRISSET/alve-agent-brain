@@ -1,0 +1,1 @@
+export function run(input) { const text = (input && typeof input.text === 'string') ? input.text.trim() : ''; const style = (input && typeof input.style === 'string') ? input.style.trim().toLowerCase() : ''; if (text === '') return ''; if (style === 'добрый') return 'Спасибо! ' + text + ' Хорошего дня!'; if (style === 'смешной') return text + ' 😄'; return text; }
