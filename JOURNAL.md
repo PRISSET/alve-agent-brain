@@ -198,3 +198,7 @@ Collected 0/2 votes, collection extended.
 ## v0.6 · journal
 Cycle without promotion — not enough votes
 Collected 0/2 votes, collection extended.
+
+## v0.6 · journal
+Cycle without promotion — not enough votes
+Collected 0/2 votes, collection extended.
