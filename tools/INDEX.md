@@ -13,3 +13,4 @@
 - flexlayoutengine: Computes absolute x/y/width/height boxes for GUI children using a flexbox-like model (row/column, justify, align, gap, padding).
 - ton_coin_converter: Converts amounts between Toncoin (TON) and a fiat currency using a provided exchange rate. Supports both directions and rounding.
 - solbalancechecker: Validates a Solana (base58) wallet address and converts its lamport balance into SOL with formatted breakdown.
+- sol_news_sentiment_predictor: Analyzes global news headlines for bullish/bearish keywords and predicts SOL coin direction with a confidence score. Deterministic.
