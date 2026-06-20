@@ -16,3 +16,4 @@
 - sol_news_sentiment_predictor: Analyzes global news headlines for bullish/bearish keywords and predicts SOL coin direction with a confidence score. Deterministic.
 - getsolbalance: Validate a base58 Solana address and fetch its SOL balance via JSON-RPC getBalance, returning lamports and SOL. Accepts a pre-fetched response for offline use.
 - sol_to_usdc_converter: Plans a deterministic SOL->USDC conversion: validates a SOL private key, computes USDC output, slippage min-receive and remaining balance.
+- solana_token_ca_inspector: Validates a Solana token contract address and summarizes token info: name, ticker, total supply, and top holders with their percentage held.
