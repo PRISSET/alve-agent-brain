@@ -64,3 +64,87 @@ Collected 0/2 votes, collection extended.
 ## v0.10 · tool-rejected
 Tool rolled back — autotests failed
 The need «GUI» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.6 · journal
+Cycle without promotion — not enough votes
+Collected 0/2 votes, collection extended.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.6 · journal
+Cycle without promotion — not enough votes
+Collected 0/2 votes, collection extended.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.6 · journal
+Cycle without promotion — not enough votes
+Collected 0/2 votes, collection extended.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.6 · journal
+Cycle without promotion — not enough votes
+Collected 0/2 votes, collection extended.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.
+
+## v0.10 · tool-rejected
+Tool rolled back — autotests failed
+The need «curs ton coin» was not met: tests did not pass.

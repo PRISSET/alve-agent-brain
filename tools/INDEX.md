@@ -11,3 +11,4 @@
 - normalizegreeting: Detects informal or slang greetings (incl. transliterated salaam variants) in text and returns a standardized canonical greeting form.
 - extractdomain: Extracts the lowercase host/domain from a URL string, stripping scheme, userinfo, port, path, query, fragment, and leading www.
 - flexlayoutengine: Computes absolute x/y/width/height boxes for GUI children using a flexbox-like model (row/column, justify, align, gap, padding).
+- ton_coin_converter: Converts amounts between Toncoin (TON) and a fiat currency using a provided exchange rate. Supports both directions and rounding.
