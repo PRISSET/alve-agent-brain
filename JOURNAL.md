@@ -186,3 +186,7 @@ Tool rolled back — autotests failed
 The need «Google analitic
 
 You need to analyze Google and predict the rise and fall of the SOL coin based on global news.» was not met: tests did not pass.
+
+## v0.6 · journal
+Cycle without promotion — not enough votes
+Collected 0/2 votes, collection extended.
